@@ -42,7 +42,6 @@ export async function verifyToken(
     if (!options?.noLog) {
       logError('Token Verify Error', 'Token freeze authority enabled')
     }
-    return false
   }
   return info
 }

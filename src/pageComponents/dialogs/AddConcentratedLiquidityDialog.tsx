@@ -90,7 +90,7 @@ export function AddConcentratedLiquidityDialog() {
     [coinQuote, coinQuoteAmount]
   )
 
-  const haveAnyToken2022 = isToken2022(coinBase) || isToken2022(coinQuote)
+  const haveAnyToken2022 = true //isToken2022(coinBase) || isToken2022(coinQuote)
 
   const [amountBaseIsOutOfMax, setAmountBaseIsOutOfMax] = useState(false)
   const [amountBaseIsNegative, setAmountBaseIsNegative] = useState(false)

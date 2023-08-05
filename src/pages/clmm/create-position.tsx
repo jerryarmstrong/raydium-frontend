@@ -338,7 +338,7 @@ function ConcentratedCard() {
     [coin2, coin2Amount]
   )
 
-  const haveAnyToken2022 = isToken2022(coin1) || isToken2022(coin2)
+  const haveAnyToken2022 = true // isToken2022(coin1) || isToken2022(coin2)
 
   const handleAdjustMin = useEvent((pos: { min: number; max: number }): { price: number; tick: number } => {
     const originRes = { price: pos.min, tick: tickRef.current.lower! }
